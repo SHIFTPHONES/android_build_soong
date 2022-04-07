@@ -147,7 +147,16 @@ func dumpMakeVars(ctx Context, config Config, goals, vars []string, write_soong_
 var BannerVars = []string{
 	"PLATFORM_VERSION_CODENAME",
 	"PLATFORM_VERSION",
+	"PLATFORM_SECURITY_PATCH",
+	"PLATFORM_BASE_OS",
+	"BUILD_ID",
+	"BUILD_NUMBER",
+	"BUILD_FINGERPRINT",
+	"XXX",
 	"LINEAGE_VERSION",
+	"SHIFT_BUILD_TYPE",
+	"SHIFT_VERSION_DISPLAY",
+	"XXX",
 	"PRODUCT_SOURCE_ROOT_DIRS",
 	"TARGET_PRODUCT",
 	"TARGET_BUILD_VARIANT",
@@ -159,16 +168,21 @@ var BannerVars = []string{
 	"TARGET_2ND_ARCH",
 	"TARGET_2ND_ARCH_VARIANT",
 	"TARGET_2ND_CPU_VARIANT",
+	"TARGET_KERNEL_VERSION",
+	"XXX",
 	"HOST_OS",
 	"HOST_OS_EXTRA",
 	"HOST_CROSS_OS",
-	"BUILD_ID",
+	"XXX",
 	"OUT_DIR",
 	"SOONG_SDK_SNAPSHOT_TARGET_BUILD_RELEASE",
+	"XXX",
+	"PRODUCT_INCLUDE_TAGS",
 	"PRODUCT_IS_ATV",
 	"PRODUCT_IS_AUTOMOTIVE",
 	"WITH_SU",
 	"WITH_GMS",
+	"WITH_GMS_MAINLINE",
 	"GMS_MAKEFILE",
 	"MAINLINE_MODULES_MAKEFILE",
 	"PRODUCT_SOONG_NAMESPACES",
@@ -179,7 +193,9 @@ func Banner(make_vars map[string]string) string {
 
 	fmt.Fprintln(b, "============================================")
 	for _, name := range BannerVars {
-		if make_vars[name] != "" {
+		if name == "XXX" {
+			fmt.Fprintln(b, "============================================")
+		} else if make_vars[name] != "" {
 			fmt.Fprintf(b, "%s=%s\n", name, make_vars[name])
 		}
 	}

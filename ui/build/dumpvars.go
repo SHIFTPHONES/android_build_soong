@@ -139,8 +139,16 @@ func dumpMakeVars(ctx Context, config Config, goals, vars []string, write_soong_
 var BannerVars = []string{
 	"PLATFORM_VERSION_CODENAME",
 	"PLATFORM_VERSION",
+	"PLATFORM_SECURITY_PATCH",
+	"PLATFORM_BASE_OS",
+	"BUILD_ID",
+	"BUILD_NUMBER",
+	"BUILD_FINGERPRINT",
+	"XXX",
 	"LINEAGE_VERSION",
-	"PRODUCT_INCLUDE_TAGS",
+	"SHIFT_BUILD_TYPE",
+	"SHIFT_SOFTWARE_VERSION",
+	"XXX",
 	"TARGET_PRODUCT",
 	"TARGET_BUILD_VARIANT",
 	"TARGET_BUILD_TYPE",
@@ -152,6 +160,8 @@ var BannerVars = []string{
 	"TARGET_2ND_ARCH",
 	"TARGET_2ND_ARCH_VARIANT",
 	"TARGET_2ND_CPU_VARIANT",
+	"TARGET_KERNEL_VERSION",
+	"XXX",
 	"HOST_ARCH",
 	"HOST_2ND_ARCH",
 	"HOST_OS",
@@ -160,7 +170,7 @@ var BannerVars = []string{
 	"HOST_CROSS_ARCH",
 	"HOST_CROSS_2ND_ARCH",
 	"HOST_BUILD_TYPE",
-	"BUILD_ID",
+	"XXX",
 	"OUT_DIR",
 	"AUX_OS_VARIANT_LIST",
 	"PRODUCT_SOONG_NAMESPACES",
@@ -168,10 +178,14 @@ var BannerVars = []string{
 	"SOONG_SDK_SNAPSHOT_TARGET_BUILD_RELEASE",
 	"SOONG_SDK_SNAPSHOT_USE_SOURCE_CONFIG_VAR",
 	"SOONG_SDK_SNAPSHOT_VERSION",
-        "PRODUCT_IS_ATV",
-        "PRODUCT_IS_AUTO",
+	"XXX",
+	"PRODUCT_INCLUDE_TAGS",
+	"PRODUCT_IS_ATV",
+	"PRODUCT_IS_AUTO",
+	"XXX",
 	"WITH_SU",
 	"WITH_GMS",
+	"WITH_GMS_MAINLINE",
 	"GMS_MAKEFILE",
 	"MAINLINE_MODULES_MAKEFILE",
 }
@@ -181,7 +195,9 @@ func Banner(make_vars map[string]string) string {
 
 	fmt.Fprintln(b, "============================================")
 	for _, name := range BannerVars {
-		if make_vars[name] != "" {
+		if name == "XXX" {
+			fmt.Fprintln(b, "============================================")
+		} else if make_vars[name] != "" {
 			fmt.Fprintf(b, "%s=%s\n", name, make_vars[name])
 		}
 	}

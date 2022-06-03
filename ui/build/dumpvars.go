@@ -179,6 +179,7 @@ var BannerVars = []string{
 	"XXX",
 	"WITH_SU",
 	"WITH_GMS",
+	"WITH_GMS_MAINLINE",
 	"PRODUCT_IS_ATV",
 	"PRODUCT_IS_AUTO",
 	"GMS_MAKEFILE",

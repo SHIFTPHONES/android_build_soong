@@ -196,7 +196,7 @@ sdk_snapshot {
 }
 `),
 		checkAllCopyRules(`
-.intermediates/myjavalib/linux_glibc_common/javac/myjavalib.jar -> java/myjavalib.jar
+.intermediates/myjavalib/linux_glibc_common/javac-header/myjavalib.jar -> java/myjavalib.jar
 aidl/foo/bar/Test.aidl -> aidl/aidl/foo/bar/Test.aidl
 `),
 	)
@@ -268,7 +268,7 @@ sdk_snapshot {
 `),
 		checkAllCopyRules(`
 .intermediates/myjavalib/android_common/turbine-combined/myjavalib.jar -> java/android/myjavalib.jar
-.intermediates/myjavalib/linux_glibc_common/javac/myjavalib.jar -> java/linux_glibc/myjavalib.jar
+.intermediates/myjavalib/linux_glibc_common/javac-header/myjavalib.jar -> java/linux_glibc/myjavalib.jar
 `),
 	)
 }
@@ -933,7 +933,7 @@ sdk_snapshot {
     java_system_modules: ["mysdk_my-system-modules@current"],
 }
 `),
-		checkAllCopyRules(".intermediates/system-module/linux_glibc_common/javac/system-module.jar -> java/system-module.jar"),
+		checkAllCopyRules(".intermediates/system-module/linux_glibc_common/javac-header/system-module.jar -> java/system-module.jar"),
 	)
 }
 
@@ -1065,7 +1065,7 @@ module_exports_snapshot {
 }
 `),
 		checkAllCopyRules(`
-.intermediates/hostjavalib/linux_glibc_common/javac/hostjavalib.jar -> java/hostjavalib.jar
+.intermediates/hostjavalib/linux_glibc_common/javac-header/hostjavalib.jar -> java/hostjavalib.jar
 .intermediates/androidjavalib/android_common/turbine-combined/androidjavalib.jar -> java/androidjavalib.jar
 .intermediates/myjavalib/android_common/javac/myjavalib.jar -> java/android/myjavalib.jar
 .intermediates/myjavalib/linux_glibc_common/javac/myjavalib.jar -> java/linux_glibc/myjavalib.jar

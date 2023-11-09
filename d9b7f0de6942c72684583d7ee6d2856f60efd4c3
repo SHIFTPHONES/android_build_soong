@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bbbe5aa_bc284fa2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-11-09T18:45:55Z",
+      "side": 1,
+      "message": "- https://android-review.googlesource.com/c/platform/art/+/2364808\n- https://android-review.googlesource.com/c/platform/art/+/2378929\n- https://android-review.googlesource.com/c/platform/libcore/+/2393426\n- https://android-review.googlesource.com/c/platform/libcore/+/2617231\n- https://android-review.googlesource.com/c/platform/packages/modules/CellBroadcastService/+/2146982\n- https://android-review.googlesource.com/c/platform/tools/metalava/+/2617399",
+      "revId": "d9b7f0de6942c72684583d7ee6d2856f60efd4c3",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}

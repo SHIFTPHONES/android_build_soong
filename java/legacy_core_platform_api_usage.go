@@ -144,6 +144,7 @@ var legacyCorePlatformApiModules = []string{
 	"service-blobstore",
 	"service-connectivity-pre-jarjar",
 	"service-jobscheduler",
+	"original.services",
 	"services",
 	"services.accessibility",
 	"services.backup",

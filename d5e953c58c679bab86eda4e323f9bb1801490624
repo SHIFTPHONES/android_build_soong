@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ebb5ee8a_5a231458",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-03-20T15:22:36Z",
+      "side": 1,
+      "message": "```\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nPLATFORM_VERSION_CODENAME\u003dREL\nPLATFORM_VERSION\u003d15\nPLATFORM_SECURITY_PATCH\u003d2025-03-01\nBUILD_ID\u003dAP4A.250205.002\nBUILD_NUMBER\u003d20250320\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nLINEAGE_VERSION\u003d22.1-20250320-UNOFFICIAL-axolotl\nSHIFT_BUILD_TYPE\u003ddevelopment-light\nSHIFT_VERSION_DISPLAY\u003d7.0.L\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nTARGET_PRODUCT\u003dlineage_axolotl\nTARGET_BUILD_VARIANT\u003duserdebug\nTARGET_ARCH\u003darm64\nTARGET_ARCH_VARIANT\u003darmv8-a\nTARGET_CPU_VARIANT\u003dgeneric\nTARGET_2ND_ARCH\u003darm\nTARGET_2ND_ARCH_VARIANT\u003darmv8-2a\nTARGET_2ND_CPU_VARIANT\u003dgeneric\nTARGET_KERNEL_VERSION\u003d4.9\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nHOST_OS\u003dlinux\nHOST_OS_EXTRA\u003dLinux-6.14.0-0.rc7.56.fc42.x86_64-x86_64-Fedora-Linux-42-(Workstation-Edition-Prerelease)\nHOST_CROSS_OS\u003dwindows\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nOUT_DIR\u003dout\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nWITH_GMS\u003dfalse\nWITH_GMS_MAINLINE\u003dfalse\nPRODUCT_SOONG_NAMESPACES\u003dvendor/shift/axolotl device/shift/axolotl hardware/qcom-caf/sdm845 vendor/qcom/opensource/commonsys/display vendor/qcom/opensource/commonsys-intf/display vendor/qcom/opensource/display vendor/qcom/opensource/data-\nipa-cfg-mgr-legacy-um vendor/qcom/opensource/dataservices hardware/qcom-caf/wlan\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n```",
+      "revId": "d5e953c58c679bab86eda4e323f9bb1801490624",
+      "serverId": "5979fb85-960d-4ec4-8ce0-8568b21942fe"
+    }
+  ]
+}
